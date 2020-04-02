@@ -3,7 +3,8 @@ const database = require('knex')(connection)
 
 
 module.exports = {
-    listCakeFlavors(){
-        return database('cake_flavors')
+    listFrostingFlavors(){
+        return database('frosting_flavors')
     }
+
 }
