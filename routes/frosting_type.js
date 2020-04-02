@@ -1,11 +1,11 @@
 const express = require("express");
 const router = express.Router();
-const queries = require('../queries/cake_flavor_query');
+const queries = require('../queries/frosting_type_query');
 
 
 
 router.get('/', (request, response) => {
-    queries.listCakeFlavors().then(results => response.json(results))
+    queries.listFrostingType().then(results => response.json(results))
 })
 
 
