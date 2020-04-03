@@ -1,13 +1,13 @@
 const express = require("express");
 const router = express.Router();
-const queries = require('../queries/frosting_type_query');
+const FrostingType = require("../models/FrostingType")
 
 
 
-router.get('/', (request, response) => {
-    queries.listFrostingType().then(results => response.json(results))
+router.get('/', async (request, response) => {
+    const frosting_type = await FrostingType.query()
+    response.json({ frosting_type })
 })
-
 
 
 module.exports = router 

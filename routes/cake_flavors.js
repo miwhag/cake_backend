@@ -1,13 +1,14 @@
 const express = require("express");
 const router = express.Router();
-const queries = require('../queries/cake_flavor_query');
+const { Model } = require('objection')
+const CakeFlavor = require("../models/CakeFlavor")
 
 
 
-router.get('/', (request, response) => {
-    queries.listCakeFlavors().then(results => response.json(results))
+router.get('/', async (request, response) => {
+    const cake_flavors = await CakeFlavor.query()
+    response.json({ cake_flavors })
 })
-
 
 
 module.exports = router 
