@@ -13,8 +13,8 @@ class FrostingFlavor extends Model {
           join: {
             from: 'frosting_flavors.id',
             through: {
-              from: 'frosting_flavor_type.frosting_flavors.id',
-              to: 'frosting_flavor_type.frosting_type.id'
+              from: 'frosting_flavor_type.frosting_flavor_id',
+              to: 'frosting_flavor_type.frosting_type_id'
             },
             to: 'frosting_type.id'
           }

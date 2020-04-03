@@ -6,6 +6,7 @@ class FrostingType extends Model {
     }
     static get relationMappings(){
       const FrostingFlavor= require('./FrostingFlavor');
+      require('./FrostingFlavorType')
       return {
         frosting_flavors: {
           relation: Model.ManyToManyRelation,
@@ -13,15 +14,14 @@ class FrostingType extends Model {
           join: {
             from: 'frosting_type.id',
             through: {
-              from: 'frosting_flavor_type.frosting_type.id',
-              to: 'frosting_flavor_type.frosting_flavors.id'
+              from: 'frosting_flavor_type.frosting_type_id',
+              to: 'frosting_flavor_type.frosting_flavor_id'
             },
             to: 'frosting_flavors.id'
           }
   
         }
       }
-      
     }
   }
   
