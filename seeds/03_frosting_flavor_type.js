@@ -746,10 +746,5 @@ exports.seed = async function(knex) {
     }).returning('id')
 
 
-
-
-
-
-
 };
 
