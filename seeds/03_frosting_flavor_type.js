@@ -679,7 +679,7 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert({
       name: "Strawberry - Cream Cheese Frosting",
       image: 'https://i.ibb.co/2n0Zgq3/strawberry-ccf.png',
-      frosting_type_id: +mousse,
+      frosting_type_id: +ccf,
       frosting_flavor_id: +strawberry,
     }).returning('id')
 
@@ -687,14 +687,14 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert({
       name: "Chocolate - Cream Cheese Frosting",
       image: 'https://i.ibb.co/4JNpjYr/chocolate-ccf.png',
-      frosting_type_id: +mousse,
+      frosting_type_id: +ccf,
       frosting_flavor_id: +chocolate,
     }).returning('id')
 
     await knex('frosting_flavor_type').insert({
       name: "Pumpkin Spice - Cream Cheese Frosting",
       image: 'https://i.ibb.co/0sdmP92/pumpkin-spice-ccf.png',
-      frosting_type_id: +mousse,
+      frosting_type_id: +ccf,
       frosting_flavor_id: +p_spice,
     }).returning('id')
 
@@ -702,7 +702,7 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert({
       name: "Caramel - Cream Cheese Frosting",
       image: 'https://i.ibb.co/sFpY0cN/caramel-ccf.png',
-      frosting_type_id: +mousse,
+      frosting_type_id: +ccf,
       frosting_flavor_id: +caramel,
     }).returning('id')
 
