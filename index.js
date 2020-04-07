@@ -5,6 +5,8 @@ app.use(cors())
 const bodyParser = require('body-parser');
 app.use(bodyParser.json())
 const bcrypt = require("bcrypt")
+const jwt = require('jsonwebtoken')
+const SECRET = "someyhinh"
 
 
 const cake_flavors = require('./routes/cake_flavors');
@@ -34,8 +36,6 @@ app.get('/', (request, response) => {
 })
 
 
-
-
 app.post("/users", (request, response) => {
     bcrypt.hash(request.body.password, 12)
     .then(hashedPassword => {
@@ -47,6 +47,31 @@ app.post("/users", (request, response) => {
         }).returning(["id", "first_name", "last_name", "username"])
         }) .then(users => {
             response.json(users[0])
+    })
+})
+
+app.post("/login", (request, response) => {
+    database("user")
+    .where({username: request.body.username})
+    .first()
+    .then( user => {
+        if (!user){
+            response.status(401).json({ error: "No user by that name"})
+        } else {
+            return bcrypt
+            .compare(request.body.password, user.password_digest)
+            .then(isAuthenticated => {
+                if (!isAuthenticated){
+                    response.status(401).json({ error: "Not authenticated"}) 
+                    } else {
+                        return jwt.sign(user, SECRET, (error, token) => {
+                            response.status(200).json({token})
+                        })
+                    }
+         
+                }
+            )
+        }
     })
 })
 
