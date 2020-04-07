@@ -65,7 +65,7 @@ app.post("/login", (request, response) => {
                     response.status(401).json({ error: "Not authenticated"}) 
                     } else {
                         return jwt.sign(user, SECRET, (error, token) => {
-                            response.status(200).json({token})
+                            response.status(200).json({user, token})
                         })
                     }
          
@@ -79,4 +79,3 @@ app.post("/login", (request, response) => {
 
 const port = process.env.PORT || 3030
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
-
