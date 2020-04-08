@@ -1,12 +1,15 @@
 const express = require('express');
 const app = express();
-const cors = require("cors")
-app.use(cors())
 const bodyParser = require('body-parser');
-app.use(bodyParser.json())
-const bcrypt = require("bcrypt")
+const cors = require("cors");
+app.use(cors());
+app.use(bodyParser.json());
+const SECRET = "sdfhjkdfjk";
+
+
+const bcrypt = require("bcrypt");
 const jwt = require('jsonwebtoken')
-const SECRET = "someyhinh"
+
 
 
 const cake_flavors = require('./routes/cake_flavors');
@@ -23,7 +26,6 @@ const database = require('knex')(connection)
 const { Model } = require('objection')
 Model.knex(database)
 
-
 app.use('/cake_flavors', cake_flavors)
 app.use('/frosting_flavors', frosting_flavors)
 app.use('/frosting_type', frosting_type)
@@ -39,33 +41,50 @@ app.get('/', (request, response) => {
 app.post("/users", (request, response) => {
     bcrypt.hash(request.body.password, 12)
     .then(hashedPassword => {
-        return database("user").insert({
+        return database("users").insert({
             first_name: request.body.first_name,
             last_name: request.body.last_name,
             username: request.body.username,
             password_digest: hashedPassword,
-        }).returning(["id", "first_name", "last_name", "username"])
-        }) .then(users => {
-            response.json(users[0])
+        })
+        .returning(["id", "first_name", "last_name", "username"])
+        .then(users => {
+          response.json(users[0])
+    })
+    .catch(error => next(error))
     })
 })
 
+app.get("/users", (request, response, next) => {
+    database("users")
+    .then(users => {
+       response.json(users)
+    })
+ })
+
+ app.delete("/users/:id", (request, response) => {
+    database("users")
+    .where("id", request.body.id)
+    .del()
+    .then(() => response.status(401))
+ })
+
 app.post("/login", (request, response) => {
-    database("user")
-    .where({username: request.body.username})
+    database("users")
+    .where({username: request.body.user.username})
     .first()
     .then( user => {
         if (!user){
             response.status(401).json({ error: "No user by that name"})
         } else {
             return bcrypt
-            .compare(request.body.password, user.password_digest)
+            .compare(request.body.user.password, user.password_digest)
             .then(isAuthenticated => {
                 if (!isAuthenticated){
                     response.status(401).json({ error: "Not authenticated"}) 
                     } else {
                         return jwt.sign(user, SECRET, (error, token) => {
-                            response.status(200).json({token})
+                            response.status(200).json({user, token})
                         })
                     }
          
@@ -79,4 +98,3 @@ app.post("/login", (request, response) => {
 
 const port = process.env.PORT || 3030
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
-
