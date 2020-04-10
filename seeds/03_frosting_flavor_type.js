@@ -83,7 +83,7 @@ exports.seed = async function(knex) {
       }).returning('id')
 
       const fmb = await knex('frosting_type').insert({
-        name: 'French Meringue Buttercream ', 
+        name: 'French Meringue Buttercream', 
         info: 'French meringue buttercream is the richest and tastiest of the three meringue buttercream\'s because it uses egg yolks instead of egg whites. Similar to the Italian meringue it also is prepared with hot liquid sugar and whipped with butter.',
       }).returning('id')
 
