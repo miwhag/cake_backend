@@ -20,11 +20,11 @@ const { authenticate, verifyUser, hashPassword} = require('./authenticate')
 const { Model } = require('objection')
 Model.knex(database)
 
-app.use('/cake_flavors', cake_flavors)
-app.use('/frosting_flavors', frosting_flavors)
-app.use('/frosting_type', frosting_type)
-app.use('/finish_type', finish_type)
-app.use('/frosting_flavor_type', frosting_flavor_type)
+app.use('/cake_flavors', cake_flavors, authenticate)
+app.use('/frosting_flavors', frosting_flavors, authenticate)
+app.use('/frosting_type', frosting_type, authenticate)
+app.use('/finish_type', finish_type, authenticate)
+app.use('/frosting_flavor_type', frosting_flavor_type, authenticate)
 app.use('/users', users)
 
 app.get('/', (request, response) => {
@@ -40,7 +40,6 @@ app.get("/users", (request, response, next) => {
        response.json(users)
     })
  })
-
 
 app.post("/login", verifyUser, async (request, response) => { 
 })     
