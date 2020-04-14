@@ -3,6 +3,7 @@ exports.up = function(knex) {
         table.increments()
         table.string('name')
         table.string('image')
+        table.string('cake_color')
         table.timestamps(true, true)
     })
 };
