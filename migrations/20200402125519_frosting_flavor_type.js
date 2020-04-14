@@ -5,6 +5,7 @@ exports.up = function(knex) {
         table.string('name').notNullable();
         table.integer('frosting_type_id').references('id').inTable('frosting_type');
         table.integer('frosting_flavor_id').references('id').inTable('frosting_flavors');
+        table.string('frosting_color')
         table.string('image').notNullable();
         table.timestamps(true, true)
     })
