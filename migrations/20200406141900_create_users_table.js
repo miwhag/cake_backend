@@ -15,4 +15,3 @@ exports.down = function(knex) {
 };
 
 
-
