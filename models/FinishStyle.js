@@ -1,6 +1,7 @@
 const { Model } = require('objection')
 const FinishColor = require('./FinishColor')
 const FinishType = require('./FinishType')
+const FinishAccent = require('./FinishAccent')
 
 class FinishStyle extends Model {
     static get tableName(){
@@ -21,6 +22,14 @@ class FinishStyle extends Model {
         join: {
           from: 'finish_styles.finish_type_id',
           to: 'finish_type.id'
+        }
+      },
+      finish_accent: {
+        relation: Model.BelongsToOneRelation,
+        modelClass: FinishAccent,
+        join: {
+          from: 'finish_styles.finish_accent_id',
+          to: 'finish_accents.id'
         }
       }
       

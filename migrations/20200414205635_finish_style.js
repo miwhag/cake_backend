@@ -5,6 +5,7 @@ exports.up = function(knex) {
         table.string('name').notNullable();
         table.integer('finish_type_id').references('id').inTable('finish_type');
         table.integer('finish_color_id').references('id').inTable('finish_colors');
+        table.integer('finish_accent_id').references('id').inTable('finish_accents');
         table.timestamps(true, true)
     })
 };

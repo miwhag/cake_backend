@@ -1,5 +1,6 @@
 const { Model } = require('objection')
 
+
 class FinishColor extends Model {
     static get tableName(){
       return 'finish_colors'
