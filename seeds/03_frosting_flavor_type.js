@@ -130,7 +130,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Vanilla - American Buttercream",
-        image: 'https://i.ibb.co/tp8Bf9n/vanilla.png',
+        image: 'https://i.imgur.com/pcc7HKa.png',
         frosting_color: "#fffdf9",
         frosting_type_id: +ab,
         frosting_flavor_id: +vanilla,
@@ -138,7 +138,7 @@ exports.seed = async function(knex) {
       
       await knex('frosting_flavor_type').insert({
         name: " Chocolate - American Buttercream",
-        image: 'https://i.ibb.co/PNn8gwD/chocolate.png',
+        image: 'https://i.imgur.com/Qjz10Dk.png',
         frosting_color: "#42240c",
         frosting_type_id: +ab,
         frosting_flavor_id: +chocolate,
@@ -146,7 +146,7 @@ exports.seed = async function(knex) {
       
       await knex('frosting_flavor_type').insert({
         name: "Strawberry - American Buttercream",
-        image: 'https://i.ibb.co/qM9V7DL/strawberry.png',
+        image: 'https://i.imgur.com/WFkVi88.png',
         frosting_color: "#ffb6b6",
         frosting_type_id: +ab,
         frosting_flavor_id: +strawberry,
@@ -154,7 +154,7 @@ exports.seed = async function(knex) {
       
       await knex('frosting_flavor_type').insert({
         name: "Raspberry - American Buttercream",
-        image: 'https://i.ibb.co/q18Npss/raspberry.png',
+        image: 'https://i.imgur.com/QH6Uqnk.png',
         frosting_color: "#b80d57",
         frosting_type_id: +ab,
         frosting_flavor_id: +raspberry,
@@ -162,7 +162,7 @@ exports.seed = async function(knex) {
       
       await knex('frosting_flavor_type').insert({
         name: "Blackberry - American Buttercream",
-        image: 'https://i.ibb.co/khJjryy/blackberry.png',
+        image: 'https://i.imgur.com/LCAWcfk.png',
         frosting_color: "#512b58",
         frosting_type_id: +ab,
         frosting_flavor_id: +blackberry,
@@ -170,7 +170,7 @@ exports.seed = async function(knex) {
       
       await knex('frosting_flavor_type').insert({
         name: "Blueberry - American Buttercream",
-        image: 'https://i.ibb.co/bLr6Ys8/blueberry.png',
+        image: 'https://i.imgur.com/rbjXkBv.png',
         frosting_color: "#4d4c7d",
         frosting_type_id: +ab,
         frosting_flavor_id: +blueberry,
@@ -178,7 +178,7 @@ exports.seed = async function(knex) {
       
       await knex('frosting_flavor_type').insert({
         name: "Brown Sugar - American Buttercream",
-        image: 'https://i.ibb.co/c2qBvY4/brownsugar.png',
+        image: 'https://i.imgur.com/1eoWBUr.png',
         frosting_color: "#e3c4a8",
         frosting_type_id: +ab,
         frosting_flavor_id: +brown_sugar,
@@ -186,7 +186,7 @@ exports.seed = async function(knex) {
       
       await knex('frosting_flavor_type').insert({
         name: "Pumpkin Spice - American Buttercream",
-        image: 'https://i.ibb.co/4NtBHPb/pumpkin.png',
+        image: 'https://i.imgur.com/gRyV9Fw.png',
         frosting_color: "#e6a157",
         frosting_type_id: +ab,
         frosting_flavor_id: +p_spice,
@@ -194,7 +194,7 @@ exports.seed = async function(knex) {
       
       await knex('frosting_flavor_type').insert({
         name: "Cookies & Cream - American Buttercream",
-        image: 'https://i.ibb.co/qmqkjRj/cookies.png',
+        image: 'https://i.imgur.com/CoF0aje.png',
         frosting_color: "#fcf8f3",
         frosting_type_id: +ab,
         frosting_flavor_id: +cac,
@@ -202,7 +202,7 @@ exports.seed = async function(knex) {
       
       await knex('frosting_flavor_type').insert({
         name: "Lemon - American Buttercream",
-        image: 'https://i.ibb.co/Hp9Nrj9/lemon.png',
+        image: 'https://i.imgur.com/CsGCmsa.png',
         frosting_color: "#ffeb99",
         frosting_type_id: +ab,
         frosting_flavor_id: +lemon,
@@ -210,7 +210,7 @@ exports.seed = async function(knex) {
       
       await knex('frosting_flavor_type').insert({
         name: "Passionfruit - American Buttercream",
-        image: 'https://i.ibb.co/qMqk49t/passionfruit-buttercream.png',
+        image: 'https://i.imgur.com/i5PiQF7.png',
         frosting_color: "#f3c623",
         frosting_type_id: +ab,
         frosting_flavor_id: +passionfruit,
@@ -218,7 +218,7 @@ exports.seed = async function(knex) {
       
       await knex('frosting_flavor_type').insert({
         name: "Mint Chocolate Chip - American Buttercream",
-        image: 'https://i.ibb.co/1RTMTWL/mint.png',
+        image: 'https://i.imgur.com/ynqKZqO.png',
         frosting_color: "#d1f5d3",
         frosting_type_id: +ab,
         frosting_flavor_id: +mcc,
@@ -226,7 +226,7 @@ exports.seed = async function(knex) {
       
       await knex('frosting_flavor_type').insert({
         name: "Coffee - American Buttercream",
-        image: 'https://i.ibb.co/Ns63tfq/coffee.png',
+        image: 'https://i.imgur.com/lqdVmU7.png',
         frosting_color: "#c7b198",
         frosting_type_id: +ab,
         frosting_flavor_id: +coffee,
@@ -235,7 +235,7 @@ exports.seed = async function(knex) {
     
       await knex('frosting_flavor_type').insert({
         name: "Peanut Butter - American Buttercream",
-        image: 'https://i.ibb.co/86F9BYZ/peanutbutter.png',
+        image: 'https://i.imgur.com/HjxdKeb.png',
         frosting_color: "#94784c",
         frosting_type_id: +ab,
         frosting_flavor_id: +pb,
@@ -244,7 +244,7 @@ exports.seed = async function(knex) {
     
       await knex('frosting_flavor_type').insert({
         name: "Caramel - American Buttercream",
-        image: 'https://i.ibb.co/3NPR7x1/caramel.png',
+        image: 'https://i.imgur.com/Z2sQojt.png',
         frosting_color: "#c57f1e",
         frosting_type_id: +ab,
         frosting_flavor_id: +caramel,
@@ -253,7 +253,7 @@ exports.seed = async function(knex) {
     
       await knex('frosting_flavor_type').insert({
         name: "Mocha - American Buttercream",
-        image: 'https://i.ibb.co/PYB2HFQ/mocha.png',
+        image: 'https://i.imgur.com/5rHGDJM.png',
         frosting_color: "#412525",
         frosting_type_id: +ab,
         frosting_flavor_id: +mocha,
@@ -264,7 +264,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Vanilla - French Meringue Buttercream",
-        image: 'https://i.ibb.co/tp8Bf9n/vanilla.png',
+        image: 'https://i.imgur.com/pcc7HKa.png',
         frosting_color: "#fffdf9",
         frosting_type_id: +fmb,
         frosting_flavor_id: +vanilla,
@@ -272,7 +272,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: " Chocolate - French Meringue Buttercream",
-        image: 'https://i.ibb.co/PNn8gwD/chocolate.png',
+        image: 'https://i.imgur.com/Qjz10Dk.png',
         frosting_color: "#42240c",
         frosting_type_id: +fmb,
         frosting_flavor_id: +chocolate,
@@ -280,7 +280,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Strawberry - French Meringue Buttercream",
-        image: 'https://i.ibb.co/qM9V7DL/strawberry.png',
+        image: 'https://i.imgur.com/WFkVi88.png',
         frosting_color: "#ffb6b6",
         frosting_type_id: +fmb,
         frosting_flavor_id: +strawberry,
@@ -288,7 +288,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Raspberry - French Meringue Buttercream",
-        image: 'https://i.ibb.co/q18Npss/raspberry.png',
+        image: 'https://i.imgur.com/QH6Uqnk.png',
         frosting_color: "#b80d57",
         frosting_type_id: +fmb,
         frosting_flavor_id: +raspberry,
@@ -296,7 +296,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Blackberry - French Meringue Buttercream",
-        image: 'https://i.ibb.co/khJjryy/blackberry.png',
+        image: 'https://i.imgur.com/LCAWcfk.png',
         frosting_color: "#512b58",
         frosting_type_id: +fmb,
         frosting_flavor_id: +blackberry,
@@ -304,7 +304,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Blueberry - French Meringue Buttercream",
-        image: 'https://i.ibb.co/bLr6Ys8/blueberry.png',
+        image: 'https://i.imgur.com/rbjXkBv.png',
         frosting_color: "#4d4c7d",
         frosting_type_id: +fmb,
         frosting_flavor_id: +blueberry,
@@ -312,7 +312,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Brown Sugar - French Meringue Buttercream",
-        image: 'https://i.ibb.co/c2qBvY4/brownsugar.png',
+        image: 'https://i.imgur.com/1eoWBUr.png',
         frosting_color: "#e3c4a8",
         frosting_type_id: +fmb,
         frosting_flavor_id: +brown_sugar,
@@ -320,7 +320,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Pumpkin Spice - French Meringue Buttercream",
-        image: 'https://i.ibb.co/4NtBHPb/pumpkin.png',
+        image: 'https://i.imgur.com/gRyV9Fw.png',
         frosting_color: "#e6a157",
         frosting_type_id: +fmb,
         frosting_flavor_id: +p_spice,
@@ -328,7 +328,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Cookies & Cream - French Meringue Buttercream",
-        image: 'https://i.ibb.co/qmqkjRj/cookies.png',
+        image: 'https://i.imgur.com/CoF0aje.png',
         frosting_color: "#fcf8f3",
         frosting_type_id: +fmb,
         frosting_flavor_id: +cac,
@@ -336,7 +336,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Lemon - French Meringue Buttercream",
-        image: 'https://i.ibb.co/Hp9Nrj9/lemon.png',
+        image: 'https://i.imgur.com/CsGCmsa.png',
         frosting_color: "#ffeb99",
         frosting_type_id: +fmb,
         frosting_flavor_id: +lemon,
@@ -344,7 +344,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Passionfruit - French Meringue Buttercream",
-        image: 'https://i.ibb.co/qMqk49t/passionfruit-buttercream.png',
+        image: 'https://i.imgur.com/i5PiQF7.png',
         frosting_color: "#f3c623",
         frosting_type_id: +fmb,
         frosting_flavor_id: +passionfruit,
@@ -352,7 +352,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Mint Chocolate Chip - French Meringue Buttercream",
-        image: 'https://i.ibb.co/1RTMTWL/mint.png',
+        image: 'https://i.imgur.com/ynqKZqO.png',
         frosting_color: "#d1f5d3",
         frosting_type_id: +fmb,
         frosting_flavor_id: +mcc,
@@ -360,7 +360,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Coffee - French Meringue Buttercream",
-        image: 'https://i.ibb.co/Ns63tfq/coffee.png',
+        image: 'https://i.imgur.com/lqdVmU7.png',
         frosting_color: "#c7b198",
         frosting_type_id: +fmb,
         frosting_flavor_id: +coffee,
@@ -369,7 +369,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Peanut Butter - French Meringue Buttercream",
-        image: 'https://i.ibb.co/86F9BYZ/peanutbutter.png',
+        image: 'https://i.imgur.com/HjxdKeb.png',
         frosting_color: "#94784c",
         frosting_type_id: +fmb,
         frosting_flavor_id: +pb,
@@ -378,7 +378,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Caramel - French Meringue Buttercream",
-        image: 'https://i.ibb.co/3NPR7x1/caramel.png',
+        image: 'https://i.imgur.com/Z2sQojt.png',
         frosting_color: "#c57f1e",
         frosting_type_id: +fmb,
         frosting_flavor_id: +caramel,
@@ -387,7 +387,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Mocha - French Meringue Buttercream",
-        image: 'https://i.ibb.co/PYB2HFQ/mocha.png',
+        image: 'https://i.imgur.com/5rHGDJM.png',
         frosting_color: "#412525",
         frosting_type_id: +fmb,
         frosting_flavor_id: +mocha,
@@ -397,7 +397,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Vanilla - Swiss Meringue Buttercream",
-        image: 'https://i.ibb.co/tp8Bf9n/vanilla.png',
+        image: 'https://i.imgur.com/pcc7HKa.png',
         frosting_color: "#fffdf9",
         frosting_type_id: +smb,
         frosting_flavor_id: +vanilla,
@@ -405,7 +405,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: " Chocolate - Swiss Meringue Buttercream",
-        image: 'https://i.ibb.co/PNn8gwD/chocolate.png',
+        image: 'https://i.imgur.com/Qjz10Dk.png',
         frosting_color: "#42240c",
         frosting_type_id: +smb,
         frosting_flavor_id: +chocolate,
@@ -413,7 +413,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Strawberry - Swiss Meringue Buttercream",
-        image: 'https://i.ibb.co/qM9V7DL/strawberry.png',
+        image: 'https://i.imgur.com/WFkVi88.png',
         frosting_color: "#ffb6b6",
         frosting_type_id: +smb,
         frosting_flavor_id: +strawberry,
@@ -421,7 +421,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Raspberry - Swiss Meringue Buttercream",
-        image: 'https://i.ibb.co/q18Npss/raspberry.png',
+        image: 'https://i.imgur.com/QH6Uqnk.png',
         frosting_color: "#b80d57",
         frosting_type_id: +smb,
         frosting_flavor_id: +raspberry,
@@ -429,7 +429,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Blackberry - Swiss Meringue Buttercream",
-        image: 'https://i.ibb.co/khJjryy/blackberry.png',
+        image: 'https://i.imgur.com/LCAWcfk.png',
         frosting_color: "#512b58",
         frosting_type_id: +smb,
         frosting_flavor_id: +blackberry,
@@ -437,7 +437,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Blueberry - Swiss Meringue Buttercream",
-        image: 'https://i.ibb.co/bLr6Ys8/blueberry.png',
+        image: 'https://i.imgur.com/rbjXkBv.png',
         frosting_color: "#4d4c7d",
         frosting_type_id: +smb,
         frosting_flavor_id: +blueberry,
@@ -445,7 +445,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Brown Sugar - Swiss Meringue Buttercream",
-        image: 'https://i.ibb.co/c2qBvY4/brownsugar.png',
+        image: 'https://i.imgur.com/1eoWBUr.png',
         frosting_color: "#e3c4a8",
         frosting_type_id: +smb,
         frosting_flavor_id: +brown_sugar,
@@ -453,7 +453,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Pumpkin Spice - Swiss Meringue Buttercream",
-        image: 'https://i.ibb.co/4NtBHPb/pumpkin.png',
+        image: 'https://i.imgur.com/gRyV9Fw.png',
         frosting_color: "#e6a157",
         frosting_type_id: +smb,
         frosting_flavor_id: +p_spice,
@@ -461,7 +461,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Cookies & Cream - Swiss Meringue Buttercream",
-        image: 'https://i.ibb.co/qmqkjRj/cookies.png',
+        image: 'https://i.imgur.com/CoF0aje.png',
         frosting_color: "#fcf8f3",
         frosting_type_id: +smb,
         frosting_flavor_id: +cac,
@@ -469,7 +469,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Lemon - Swiss Meringue Buttercream",
-        image: 'https://i.ibb.co/Hp9Nrj9/lemon.png',
+        image: 'https://i.imgur.com/CsGCmsa.png',
         frosting_color: "#ffeb99",
         frosting_type_id: +smb,
         frosting_flavor_id: +lemon,
@@ -477,7 +477,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Passionfruit - Swiss Meringue Buttercream",
-        image: 'https://i.ibb.co/qMqk49t/passionfruit-buttercream.png',
+        image: 'https://i.imgur.com/i5PiQF7.png',
         frosting_color: "#f3c623",
         frosting_type_id: +smb,
         frosting_flavor_id: +passionfruit,
@@ -485,7 +485,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Mint Chocolate Chip - Swiss Meringue Buttercream",
-        image: 'https://i.ibb.co/1RTMTWL/mint.png',
+        image: 'https://i.imgur.com/ynqKZqO.png',
         frosting_color: "#d1f5d3",
         frosting_type_id: +smb,
         frosting_flavor_id: +mcc,
@@ -493,7 +493,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Coffee - Swiss Meringue Buttercream",
-        image: 'https://i.ibb.co/Ns63tfq/coffee.png',
+        image: 'https://i.imgur.com/lqdVmU7.png',
         frosting_color: "#c7b198",
         frosting_type_id: +smb,
         frosting_flavor_id: +coffee,
@@ -502,7 +502,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Peanut Butter - Swiss Meringue Buttercream",
-        image: 'https://i.ibb.co/86F9BYZ/peanutbutter.png',
+        image: 'https://i.imgur.com/HjxdKeb.png',
         frosting_color: "#94784c",
         frosting_type_id: +smb,
         frosting_flavor_id: +pb,
@@ -511,7 +511,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Caramel - Swiss Meringue Buttercream",
-        image: 'https://i.ibb.co/3NPR7x1/caramel.png',
+        image: 'https://i.imgur.com/Z2sQojt.png',
         frosting_color: "#c57f1e",
         frosting_type_id: +smb,
         frosting_flavor_id: +caramel,
@@ -520,7 +520,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Mocha - Swiss Meringue Buttercream",
-        image: 'https://i.ibb.co/PYB2HFQ/mocha.png',
+        image: 'https://i.imgur.com/5rHGDJM.png',
         frosting_color: "#412525",
         frosting_type_id: +smb,
         frosting_flavor_id: +mocha,
@@ -532,7 +532,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Vanilla - Italian Meringue Buttercream",
-        image: 'https://i.ibb.co/tp8Bf9n/vanilla.png',
+        image: 'https://i.imgur.com/pcc7HKa.png',
         frosting_color: "#fffdf9",
         frosting_type_id: +imb,
         frosting_flavor_id: +vanilla,
@@ -540,7 +540,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: " Chocolate - Italian Meringue Buttercream",
-        image: 'https://i.ibb.co/PNn8gwD/chocolate.png',
+        image: 'https://i.imgur.com/Qjz10Dk.png',
         frosting_color: "#42240c",
         frosting_type_id: +imb,
         frosting_flavor_id: +chocolate,
@@ -548,7 +548,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Strawberry - Italian Meringue Buttercream",
-        image: 'https://i.ibb.co/qM9V7DL/strawberry.png',
+        image: 'https://i.imgur.com/WFkVi88.png',
         frosting_color: "#ffb6b6",
         frosting_type_id: +imb,
         frosting_flavor_id: +strawberry,
@@ -556,7 +556,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Raspberry - Italian Meringue Buttercream",
-        image: 'https://i.ibb.co/q18Npss/raspberry.png',
+        image: 'https://i.imgur.com/QH6Uqnk.png',
         frosting_color: "#b80d57",
         frosting_type_id: +imb,
         frosting_flavor_id: +raspberry,
@@ -564,7 +564,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Blackberry - Italian Meringue Buttercream",
-        image: 'https://i.ibb.co/khJjryy/blackberry.png',
+        image: 'https://i.imgur.com/LCAWcfk.png',
         frosting_color: "#512b58",
         frosting_type_id: +imb,
         frosting_flavor_id: +blackberry,
@@ -572,7 +572,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Blueberry - Italian Meringue Buttercream",
-        image: 'https://i.ibb.co/bLr6Ys8/blueberry.png',
+        image: 'https://i.imgur.com/rbjXkBv.png',
         frosting_color: "#4d4c7d",
         frosting_type_id: +imb,
         frosting_flavor_id: +blueberry,
@@ -580,7 +580,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Brown Sugar - Italian Meringue Buttercream",
-        image: 'https://i.ibb.co/c2qBvY4/brownsugar.png',
+        image: 'https://i.imgur.com/1eoWBUr.png',
         frosting_color: "#e3c4a8",
         frosting_type_id: +imb,
         frosting_flavor_id: +brown_sugar,
@@ -588,7 +588,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Pumpkin Spice - Italian Meringue Buttercream",
-        image: 'https://i.ibb.co/4NtBHPb/pumpkin.png',
+        image: 'https://i.imgur.com/gRyV9Fw.png',
         frosting_color: "#e6a157",
         frosting_type_id: +imb,
         frosting_flavor_id: +p_spice,
@@ -596,7 +596,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Cookies & Cream - Italian Meringue Buttercream",
-        image: 'https://i.ibb.co/qmqkjRj/cookies.png',
+        image: 'https://i.imgur.com/CoF0aje.png',
         frosting_color: "#fcf8f3",
         frosting_type_id: +imb,
         frosting_flavor_id: +cac,
@@ -604,7 +604,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Lemon - Italian Meringue Buttercream",
-        image: 'https://i.ibb.co/Hp9Nrj9/lemon.png',
+        image: 'https://i.imgur.com/CsGCmsa.png',
         frosting_color: "#ffeb99",
         frosting_type_id: +imb,
         frosting_flavor_id: +lemon,
@@ -612,7 +612,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Passionfruit - Italian Meringue Buttercream",
-        image: 'https://i.ibb.co/qMqk49t/passionfruit-buttercream.png',
+        image: 'https://i.imgur.com/i5PiQF7.png',
         frosting_color: "#f3c623",
         frosting_type_id: +imb,
         frosting_flavor_id: +passionfruit,
@@ -620,7 +620,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Mint Chocolate Chip - Italian Meringue Buttercream",
-        image: 'https://i.ibb.co/1RTMTWL/mint.png',
+        image: 'https://i.imgur.com/ynqKZqO.png',
         frosting_color: "#d1f5d3",
         frosting_type_id: +imb,
         frosting_flavor_id: +mcc,
@@ -628,7 +628,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Coffee - Italian Meringue Buttercream",
-        image: 'https://i.ibb.co/Ns63tfq/coffee.png',
+        image: 'https://i.imgur.com/lqdVmU7.png',
         frosting_color: "#c7b198",
         frosting_type_id: +imb,
         frosting_flavor_id: +coffee,
@@ -637,7 +637,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Peanut Butter - Italian Meringue Buttercream",
-        image: 'https://i.ibb.co/86F9BYZ/peanutbutter.png',
+        image: 'https://i.imgur.com/HjxdKeb.png',
         frosting_color: "#94784c",
         frosting_type_id: +imb,
         frosting_flavor_id: +pb,
@@ -646,7 +646,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Caramel - Italian Meringue Buttercream",
-        image: 'https://i.ibb.co/3NPR7x1/caramel.png',
+        image: 'https://i.imgur.com/Z2sQojt.png',
         frosting_color: "#c57f1e",
         frosting_type_id: +imb,
         frosting_flavor_id: +caramel,
@@ -655,7 +655,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Mocha - Italian Meringue Buttercream",
-        image: 'https://i.ibb.co/PYB2HFQ/mocha.png',
+        image: 'https://i.imgur.com/5rHGDJM.png',
         frosting_color: "#412525",
         frosting_type_id: +imb,
         frosting_flavor_id: +mocha,
@@ -666,7 +666,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "Chocolate Ganache",
-        image: 'https://i.ibb.co/M2bjzTc/ganache.png',
+        image: 'https://i.imgur.com/2KiLKsH.png',
         frosting_color: "#442727",
         frosting_type_id: +ganache,
         frosting_flavor_id: +chocolate,
@@ -675,7 +675,7 @@ exports.seed = async function(knex) {
 
       await knex('frosting_flavor_type').insert({
         name: "White Chocolate Ganache",
-        image: 'https://i.ibb.co/rdBm1JV/wcganache.png',
+        image: 'https://i.imgur.com/C1u3R14.png',
         frosting_color: "#fcf8e8",
         frosting_type_id: +ganache,
         frosting_flavor_id: +white_chocolate,
@@ -687,7 +687,7 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert(        {
       name: "Lemon Curd",
       frosting_color: "#ffeb99",  
-      image: 'https://i.ibb.co/2MQ1JBb/curd.png',
+      image: 'https://i.imgur.com/tCS1TXA.png',
       frosting_type_id: +curd,
       frosting_flavor_id: +lemon,
     }).returning('id')
@@ -696,17 +696,18 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert(        {
       name: "Passionfruit Curd",
       frosting_color: "#f3c623",  
-      image: 'https://i.ibb.co/1TnLxHc/passionfruit.png',
+      image: 'https://i.imgur.com/Mbphg8o.png',
       frosting_type_id: +curd,
       frosting_flavor_id: +passionfruit,
     }).returning('id')
 
     //Mousse
 
+
     await knex('frosting_flavor_type').insert(        {
       name: "White Chocolate Mousse",
       frosting_color: "#fcf8e8",  
-      image: 'https://i.ibb.co/tXH9D1H/wcmousse.png',
+      image: 'https://i.imgur.com/C1u3R14.png',
       frosting_type_id: +mousse,
       frosting_flavor_id: +white_chocolate,
     }).returning('id')
@@ -715,7 +716,7 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert(        {
       name: "Chocolate Mousse",
       frosting_color: "#42240c",  
-      image: 'https://i.ibb.co/Dp2MD4J/mousse.png',
+      image: 'https://i.imgur.com/rQlLTmr.png',
       frosting_type_id: +mousse,
       frosting_flavor_id: +chocolate,
     }).returning('id')
@@ -723,7 +724,7 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert(        {
       name: "Strawberry Mousse",
       frosting_color: "#ffb6b6",  
-      image: 'https://i.ibb.co/L1FLHCf/strawberry-mousse.png',
+      image: 'https://i.imgur.com/7sUfQlw.png',
       frosting_type_id: +mousse,
       frosting_flavor_id: +strawberry,
     }).returning('id')
@@ -732,7 +733,7 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert(        {
       name: "Coffee Mousse",
       frosting_color: "#c7b198",  
-      image: 'https://i.ibb.co/wpgBMV8/coffee-mousse.png',
+      image: 'https://i.imgur.com/8NZrJsE.png',
       frosting_type_id: +mousse,
       frosting_flavor_id: +coffee,
     }).returning('id')
@@ -743,7 +744,7 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert(        {
       name: "Vanilla - Cream Cheese Frosting",
       frosting_color: "#fffdf9",  
-      image: 'https://i.ibb.co/wW4w3Jv/creamcheese.png',
+      image: 'https://i.imgur.com/Sp2rzKo.png',
       frosting_type_id: +ccf,
       frosting_flavor_id: +vanilla,
     }).returning('id')
@@ -752,7 +753,7 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert(        {
       name: "Strawberry - Cream Cheese Frosting",
       frosting_color: "#ffb6b6",  
-      image: 'https://i.ibb.co/2n0Zgq3/strawberry-ccf.png',
+      image: 'https://i.imgur.com/rfMhc8T.png',
       frosting_type_id: +ccf,
       frosting_flavor_id: +strawberry,
     }).returning('id')
@@ -761,7 +762,7 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert(        {
       name: "Chocolate - Cream Cheese Frosting",
       frosting_color: "#42240c",  
-      image: 'https://i.ibb.co/4JNpjYr/chocolate-ccf.png',
+      image: 'https://i.imgur.com/x4KDPhy.png',
       frosting_type_id: +ccf,
       frosting_flavor_id: +chocolate,
     }).returning('id')
@@ -769,7 +770,7 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert(        {
       name: "Pumpkin Spice - Cream Cheese Frosting",
       frosting_color: "#e6a157",  
-      image: 'https://i.ibb.co/0sdmP92/pumpkin-spice-ccf.png',
+      image: 'https://i.imgur.com/CL0zLIm.png',
       frosting_type_id: +ccf,
       frosting_flavor_id: +p_spice,
     }).returning('id')
@@ -778,7 +779,7 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert(        {
       name: "Caramel - Cream Cheese Frosting",
       frosting_color: "#c57f1e",  
-      image: 'https://i.ibb.co/sFpY0cN/caramel-ccf.png',
+      image: 'https://i.imgur.com/9ic7AO1.png',
       frosting_type_id: +ccf,
       frosting_flavor_id: +caramel,
     }).returning('id')
@@ -789,7 +790,7 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert(        {
       name: "Chocolate Whipped Cream",
       frosting_color: "#42240c",  
-      image: 'https://i.ibb.co/Sxw8MVM/chocolatewc.png',
+      image: 'https://i.imgur.com/n6HoZeG.png',
       frosting_type_id: +wc,
       frosting_flavor_id: +chocolate,
     }).returning('id')
@@ -797,7 +798,7 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert(        {
       name: "Vanilla Whipped Cream",
       frosting_color: "#fffdf9",  
-      image: 'https://i.ibb.co/27ZGm8Q/whippedcream.png',
+      image: 'https://i.imgur.com/Lg93BDc.png',
       frosting_type_id: +wc,
       frosting_flavor_id: +vanilla,
     }).returning('id')
@@ -805,7 +806,8 @@ exports.seed = async function(knex) {
 
     await knex('frosting_flavor_type').insert(        {
       name: "Strawberry Whipped Cream",
-      frosting_color: "#ffb6b6",  image: 'https://i.ibb.co/ZXr9NCc/strawwc.png',
+      frosting_color: "#ffb6b6",  
+      image: 'https://i.imgur.com/hTIbfH1.png',
       frosting_type_id: +wc,
       frosting_flavor_id: +strawberry,
     }).returning('id')
@@ -813,7 +815,7 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert(        {
       name: "Raspberry Whipped Cream",
       frosting_color: "#b80d57",  
-      image: 'https://i.ibb.co/s3Wrd2Z/raspwc.png',
+      image: 'https://i.imgur.com/H1fwoWw.png',
       frosting_type_id: +wc,
       frosting_flavor_id: +raspberry,
     }).returning('id')
@@ -821,7 +823,7 @@ exports.seed = async function(knex) {
     await knex('frosting_flavor_type').insert({
       name: "Pumpkin Spice Whipped Cream",
       frosting_color: "#e6a157",  
-      image: 'https://i.ibb.co/z4HLFMD/pswc.png',
+      image: 'https://i.imgur.com/tYzvwhf.png',
       frosting_type_id: +wc,
       frosting_flavor_id: +p_spice,
     }).returning('id')

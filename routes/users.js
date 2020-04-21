@@ -13,17 +13,13 @@ router.get('/', async (request, response) => {
 })
 
 
-// app.delete("/users/:id", (request, response) => {
-//     database("users")
-//     .where("id", request.params.id)
-//     .del()
-//     .then(() => response.status(401))
-//  })
 
-
-// router.delete('/', async (request, response) => {
-//     const deleteUser = await User.query().deleteById(8)
-// })
+router.delete('/', async (request, response) => {
+    const deleteUser = await Users.query()
+    .delete()
+    .where({first_name: "Black"})
+    response.send(`${deleteUser} has been deleted`)
+})
 
 
 module.exports = router 
