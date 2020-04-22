@@ -1,5 +1,5 @@
 exports.seed = async function(knex) {
-  await knex('finish_accents').del()
+  // await knex('finish_accents').del()
 
   const orange = await knex('finish_accents').insert({
     name: 'Orange Flower',
