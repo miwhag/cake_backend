@@ -15,7 +15,7 @@ const frosting_type = require('./routes/frosting_type');
 const finish_type = require('./routes/finish_type');
 const frosting_flavor_type = require('./routes/frosting_flavor_type')
 const finish_colors = require('./routes/finish_colors')
-const finish_styles = require('./routes/finish_styles')
+// const finish_styles = require('./routes/finish_styles')
 const finish_accents = require('./routes/finish_accents')
 const users = require('./routes/users')
 
@@ -29,7 +29,7 @@ app.use('/frosting_type', frosting_type, authenticate)
 app.use('/finish_type', finish_type, authenticate)
 app.use('/frosting_flavor_type', frosting_flavor_type, authenticate)
 app.use('/finish_colors', finish_colors, authenticate)
-app.use('/finish_styles', finish_styles, authenticate)
+// app.use('/finish_styles', finish_styles, authenticate)
 app.use('/finish_accents', finish_accents, authenticate)
 
 app.use('/users', users)
