@@ -6,7 +6,8 @@ const FinishColor = require("../models/FinishColor")
 
 
 router.get('/', async (request, response) => {
-    const finish_colors = await FinishColor.query().withGraphFetched('finish_type') 
+    const finish_colors = await FinishColor.query()
+    // .withGraphFetched('finish_type') 
     response.json({ finish_colors })
 })
 
