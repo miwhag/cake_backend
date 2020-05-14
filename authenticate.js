@@ -24,6 +24,7 @@ async function hashPassword (request, response){
 
 async function verifyUser(request, response){
     const {username, password} = request.body.user
+    console.log(request.body.user)
     const user = await database("users")
     .select()
     .where({username: username})
