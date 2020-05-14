@@ -1,8 +1,6 @@
 
 exports.seed = async function(knex) {
-  // await knex('finish_styles').del()
   await knex('finish_colors').del()
-  // await knex('finish_type').del()
 
   const sage = await knex('finish_colors').insert({
     name: 'Sage',
